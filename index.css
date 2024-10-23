@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header, .hero {
+    background: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: #333;
+  }
+  
+  .navbar a {
+    color: white;
+    display: inline-block;
+    margin: 0px  60px;
+   
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #e0ac1c;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #c89a16;
+  }
+  
+  .about-us, .services, .portfolio, .contact-us {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about-us .content {
+    margin-bottom: 30px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .services h2, .portfolio h2, .contact-us h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  
+  .service-cards, .portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .service-card, .portfolio-item {
+    flex-basis: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
